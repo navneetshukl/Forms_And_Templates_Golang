@@ -1,0 +1,19 @@
+{{template "base".}}
+
+
+
+{{define "content"}}
+
+<form action="/postdata" method="post">
+
+<input type="text" name="first" placeholder="Enter First Name">
+<input type="text" name="last" placeholder="Enter Last Name">
+<input type="text" name="email" placeholder="Enter Email Address">
+
+<button type="submit">Submit</button>
+
+</form>
+
+
+
+{{end}}
